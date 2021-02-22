@@ -8,7 +8,7 @@ public class ValidationError
     /**
      * The code (String) for the validation error
      */
-    private String Code;
+    private String code;
 
     /**
      * The message (String) fro the validation error
@@ -22,7 +22,7 @@ public class ValidationError
      */
     public String getCode()
     {
-        return Code;
+        return code;
     }
 
     /**
@@ -32,7 +32,7 @@ public class ValidationError
      */
     public void setCode(String code)
     {
-        Code = code;
+        this.code = code;
     }
 
     /**
@@ -63,6 +63,6 @@ public class ValidationError
     @Override
     public String toString()
     {
-        return "ValidationError{" + "Code='" + Code + '\'' + ", message='" + message + '\'' + '}';
+        return "ValidationError{" + "Code='" + code + '\'' + ", message='" + message + '\'' + '}';
     }
 }
