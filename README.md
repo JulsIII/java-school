@@ -701,7 +701,7 @@ Prevent null advice from displaying
 
 ## Instructions
 
-* [ ] Please fork and clone this repository.
+* [x] Please fork and clone this repository.
 * [ ] This repository does have a starter project, so you must start with that application inside of the cloned repository folder. Regularly commit and push your code as appropriate.
 * [ ] A data.sql file has been provided with seed data. You can use this class directly or modify it to fit your models. However, the data found in the file is the seed data to use!
 
